@@ -1,3 +1,9 @@
+header,
+header div{
+    display: flex;
+    align-items: center;
+}
+
 header{
     box-sizing: border-box;
     display: flex;
@@ -8,15 +14,60 @@ header{
 }
 
 header div{
-    /*background-color: wheat;*/
     flex: 0 1 300px;
     height: 80%;
+    justify-content: center;
 }
 
-.mainlogoCont{
-    min-width: 500px;
-}
 .logo{
-    height: 100px;
+    height: 50px;
     width: auto;
+}
+.selection{
+    text-align: center;
+    border: none;
+    appearance: none;
+    /*color: #ef0e3d;*/
+    padding: 7px;
+    font-size: 1rem;
+    border-radius: 20px;
+    width: 160px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    font-weight: 600;
+    transition: 0.2s;
+}
+.selection:hover{
+    background-color: lightgrey;
+    border: 1px solid #383838;
+    cursor: grab;
+}
+
+
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+        height: 250px;
+        padding: 20px;
+    }
+    header div:nth-child(2){
+        order: -1;
+    }
+}
+
+@media (min-width: 768px){
+    .logo{
+        height: 75px;
+    }
+    .selection{
+        width: 200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .mainlogoCont{
+        min-width: 500px;
+    }
+    .logo{
+        height: 100px;
+    }
 }
