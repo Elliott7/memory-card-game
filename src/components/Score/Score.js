@@ -3,7 +3,7 @@ import styles from "./score.module.css"
 
 function Score(props) {
   return (
-    <div className={styles.cont}>
+    <div className={styles.cont} style={{ backgroundColor: props.error }}>
       <div style={{ backgroundColor: props.theme.currentColor }}>
         Current Score: {props.currentScore}
       </div>

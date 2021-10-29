@@ -1,6 +1,5 @@
 import React from "react"
 import styles from "./navbar.module.css"
-import * as url from "url"
 
 function NavBar(props) {
   const changeHandler = (e) => {
@@ -36,11 +35,11 @@ function NavBar(props) {
           className={styles.selection}
           onChange={changeHandler}
         >
-          <option value="Pokemon">Pokemon</option>
-          <option value="Star Wars">Star Wars</option>
-          <option value="Rick and Morty">Rick and Morty</option>
-          <option value="LOTR">Lord of the Rings</option>
-          <option value="Cows">Cows</option>
+          <option value="Star Wars">Star Wars - Easy</option>
+          <option value="LOTR">Lord of the Rings - Medium</option>
+          <option value="Rick and Morty">Rick and Morty - Hard</option>
+          <option value="Pokemon">Pokemon - Intense</option>
+          <option value="Cows">Cows - Insane</option>
         </select>
       </div>
     </header>

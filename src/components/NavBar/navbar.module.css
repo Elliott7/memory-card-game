@@ -31,7 +31,7 @@ header div{
     padding: 7px;
     font-size: 1rem;
     border-radius: 20px;
-    width: 160px;
+    width: 250px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     font-weight: 600;
     transition: 0.2s;
@@ -57,9 +57,6 @@ header div{
 @media (min-width: 768px){
     .logo{
         height: 75px;
-    }
-    .selection{
-        width: 200px;
     }
 }
 

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import "./DivisionLine.css"
 
 function DivisionLine(props) {
@@ -7,6 +7,7 @@ function DivisionLine(props) {
       case "poke-flourish":
         return <div className={"poke-flourish"}> </div>
       case "star-flourish":
+      default:
         return (
           <div className={"star-flourish"}>
             <img src={`${props.theme.divLogo}`} alt="" />
