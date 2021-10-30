@@ -42,7 +42,11 @@ function Game(props) {
             key={card.id}
           >
             <div> </div>
-            <img src={card.url} id={card.id} alt="" />
+            <img
+              src={card.url}
+              id={card.id}
+              alt={`Card - Picture of ${card.name}`}
+            />
             <figcaption id={card.id}>{card.name}</figcaption>
           </figure>
         )

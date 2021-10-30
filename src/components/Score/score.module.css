@@ -1,9 +1,16 @@
 .cont{
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
     transition: 0.5s;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index: 1;
 }
 
 .cont div{

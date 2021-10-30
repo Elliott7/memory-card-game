@@ -17,7 +17,7 @@ function App() {
     "Rick and Morty": 0,
     Cows: 0,
   })
-  const [error, setError] = useState("transparent")
+  const [error, setError] = useState("white")
 
   function getStorageHS() {
     let highScore = localStorage.getItem("highScore")
@@ -56,7 +56,7 @@ function App() {
   const incorrectAnswer = () => {
     setError("#ffbaba")
     setTimeout(() => {
-      setError("transparent")
+      setError("white")
     }, 600)
   }
 

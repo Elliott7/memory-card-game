@@ -7,7 +7,6 @@ function NavBar(props) {
   }
 
   return (
-    // <header style={{ backgroundColor: `${props.theme.bgc}` }}>
     <header
       style={
         props.theme.bgHeadImage

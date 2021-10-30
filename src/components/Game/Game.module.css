@@ -1,12 +1,11 @@
 .container{
     padding: 5%;
-    margin-top: 40px;
     min-height: 500px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -36,24 +35,13 @@
     max-height: 80%;
     margin-top: 8px;
     border-radius: 30px;
-    /*animation: fadeIn 0.5s;*/
-    /*animation-fill-mode: forwards;*/
-    /*opacity: 0;*/
-}
-
-@keyframes fadeIn {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
 }
 
 @media (max-width: 768px) {
     .card{
-        height: 150px;
-        width: 150px;
+        height: 175px;
+        width: 175px;
+        padding-bottom: 20px;
     }
 }
 @media (min-width: 768px) {
