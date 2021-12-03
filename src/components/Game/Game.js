@@ -6,10 +6,6 @@ function Game(props) {
   const [tally, setTally] = useState([0])
   const [reset, setReset] = useState(true)
 
-  // const randomize = (arr) => {
-  //   return arr.sort(() => Math.random() - 0.5)
-  // }
-
   const randomize = (arr) => {
     let myArr = arr
     let i = myArr.length - 1
